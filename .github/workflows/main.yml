@@ -19,7 +19,7 @@ trabalhos:
     timeout-minutes:  10 
     
     passos: 
-      # gera um jogo da cobrinha a partir do gráfico de contribuições de um usuário do github RayssaZsilva, gera uma animação svg em <caminho_de_saída_do_svg> 
+      
       -  nome:  gerar  github-contribution-grid-snake.svg 
         usa:  Platane/snk/svg-only@v3 
         com: 

@@ -19,6 +19,7 @@
 <a href= "https://www.instagram.com/bitsrays?igsh=MTUxMTZ1bDNqbWF0aA%3D%3D&utm_source=qr"><img align="center" alt="Rayssa.instagram" height="30cm" src="https://img.icons8.com/?size=100&id=43625&format=png&color=000000">
 <a href= "linkedin.com/in/rayssa-silva-3aa920320"><img align="center" alt="Rayssa.in" height="30cm" src="https://img.icons8.com/?size=100&id=44019&format=png&color=000000">
 
+<br>
 <img src="https://raw.githubusercontent.com/RayssaZsilva/RayssaZsilva/output/snake.svg" alt="Snake animation" />
 
           

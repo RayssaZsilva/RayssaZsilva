@@ -20,7 +20,7 @@
 <a href= "linkedin.com/in/rayssa-silva-3aa920320"><img align="center" alt="Rayssa.in" height="30cm" src="https://img.icons8.com/?size=100&id=44019&format=png&color=000000">
 
 <br>
-<img src="https://raw.githubusercontent.com/RayssaZsilva/RayssaZsilva/output/snake.svg" alt="Snake animation" />
+<img src="https://raw.githubusercontent.com/RayssaZsilva/Rayssa Zsilva/output/snake.svg" alt="Snake animation" />
 
           
 </div>

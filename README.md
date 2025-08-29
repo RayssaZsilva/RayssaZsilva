@@ -12,7 +12,7 @@
 <img  align="center" alt="Rayssa.Python" height="100cm" width="90" src="https://icongr.am/devicon/mysql-original-wordmark.svg?size=128&color=currentColor">
 <img  align="center" alt="Rayssa.Python" height="100cm" width="90" src="https://icongr.am/devicon/html5-original-wordmark.svg?size=128&color=currentColor">
 <img  align="center" alt="Rayssa.Python" height="100cm" width="90" src="https://icongr.am/devicon/css3-original-wordmark.svg?size=128&color=currentColor">
-<img align="right" alt="Rayssa-gif"  height="300cm" width="270" src="https://cdn.discordapp.com/attachments/1265062313661173895/1365472312127783062/Design_sem_nome.gif?ex=680d6eb0&is=680c1d30&hm=db777e5d3e45635a9d0e091b4929fc06dc529bed945d310d1cb833acf189cf13&">
+<img align="right" alt="Rayssa-gif"  height="300cm" width="270" src="https://media.tenor.com/nkYsPDoADwgAAAAM/computer-pixel-art.gif">
 </div>
 
 <div style="display: inline_block"><br>

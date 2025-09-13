@@ -1,4 +1,6 @@
-## Olá eu sou Rayssa 👋
+<div align="center">
+<h2> 𝐇𝐞𝐥𝐥𝐨 𝐭𝐡𝐞𝐫𝐞, 𝐟𝐞𝐥𝐥𝐨𝐰 <𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜/>! <img src="https://github.com/ABSphreak/ABSphreak/blob/master/gifs/Hi.gif" width="30px"></h2>
+</div>
 <div>
 <a href= "https://github.com/RayssaZsilva">
   <img height="180cm" src="https://github-readme-stats.vercel.app/api?username=RayssaZsilva&show_icons=true&theme=synthwave">

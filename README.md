@@ -1,5 +1,5 @@
 <div align="center">
-<h2> OI <𝚍𝚎𝚟𝚎𝚕𝚘𝚙𝚎𝚛𝚜/>! <img src="https://github.com/ABSphreak/ABSphreak/blob/master/gifs/Hi.gif" width="30px"></h2>
+<h2> OI, me chamo Rayssa <img src="https://github.com/ABSphreak/ABSphreak/blob/master/gifs/Hi.gif" width="30px"></h2>
 </div>
 <div>
 <a href= "https://github.com/RayssaZsilva">

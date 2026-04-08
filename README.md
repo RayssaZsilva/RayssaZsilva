@@ -9,7 +9,7 @@
 <div style="display: inline_block"><br>
 <p align="center">
   <img src="https://img.shields.io/badge/Python-1a1a2e?style=for-the-badge&logo=python&logoColor=c084fc"/>
-  <img src="https://img.shields.io/badge/React-1a1a2e?style=for-the-badge&logo=react&logoColor=ff69b4"/>
+  <img src="https://img.shields.io/badge/React.JS-1a1a2e?style=for-the-badge&logo=react&logoColor=ff69b4"/>
   <img src="https://img.shields.io/badge/HTML5-1a1a2e?style=for-the-badge&logo=html5&logoColor=c084fc"/>
   <img src="https://img.shields.io/badge/CSS3-1a1a2e?style=for-the-badge&logo=css3&logoColor=ff69b4"/>
   <img src="https://img.shields.io/badge/TypeScript-1a1a2e?style=for-the-badge&logo=typescript&logoColor=C084FC" />

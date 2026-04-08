@@ -9,12 +9,13 @@
   
 <div style="display: inline_block"><br>
 <img align="center" alt="Rayssa.Python" height="100" width="90" src="https://icongr.am/devicon/python-original.svg?size=128&color=currentColor">
-<img  align="center" alt="Rayssa.Python" height="100cm" width="90" src="https://icongr.am/devicon/php-original.svg?size=128&color=currentColor">         
+<img  align="center" alt="Rayssa.PHP" height="100cm" width="90" src="https://icongr.am/devicon/php-original.svg?size=128&color=currentColor">         
 <img  align="center" alt="Rayssa.Python" height="100cm" width="90" src="https://icongr.am/devicon/postgresql-original.svg?size=128&color=currentColor">
 <img  align="center" alt="Rayssa.Python" height="100cm" width="90" src="https://icongr.am/devicon/mysql-original-wordmark.svg?size=128&color=currentColor">
 <img  align="center" alt="Rayssa.Python" height="100cm" width="90" src="https://icongr.am/devicon/html5-original-wordmark.svg?size=128&color=currentColor">
 <img  align="center" alt="Rayssa.Python" height="100cm" width="90" src="https://icongr.am/devicon/css3-original-wordmark.svg?size=128&color=currentColor">
 <img align="right" alt="Rayssa-gif"  height="300cm" width="270" src="https://media.tenor.com/_ZBoQbD6dMEAAAAM/pink-old-school.gif">
+  <import type {SimpleIcon} from 'simple-icons';>
 </div>
 
 <div style="display: inline_block"><br>

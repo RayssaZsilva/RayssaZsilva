@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Estudante%20de%20Cinecia da Computação-1f1633?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Estudante%20de%20Ciência da Computação-1f1633?style=for-the-badge" />
 </p>
 
 <div style="display: inline_block"><br>

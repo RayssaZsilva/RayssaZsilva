@@ -22,16 +22,8 @@
   <img src="https://img.shields.io/badge/React%20Native-1a1a2e?style=for-the-badge&logo=react&logoColor=FF69B4" />
 
 </p>
-<img align="right" alt="Rayssa-gif"  height="300cm" width="270" src="https://media.tenor.com/_ZBoQbD6dMEAAAAM/pink-old-school.gif">
-  <import type {SimpleIcon} from 'simple-icons';>
-</div>
+<img align="right" alt="Rayssa-gif"  height="300cm" width="300" src="https://media.tenor.com/_ZBoQbD6dMEAAAAM/pink-old-school.gif">
+<img align="right" alt="Rayssa-gif"  height="300cm" width="330" src="https://art.pixilart.com/020b2fa398d3406.gif">
+<img align="right" alt="Rayssa-gif"  height="300cm" width="330" src="https://i.pinimg.com/originals/c4/cf/5e/c4cf5e0bf4e68ec4df02bd80e03930fe.gif">
 
-<div style="display: inline_block"><br>
-<a href= "https://www.instagram.com/bitsrays?igsh=MTUxMTZ1bDNqbWF0aA%3D%3D&utm_source=qr"><img align="center" alt="Rayssa.instagram" height="50cm" src="https://img.icons8.com/?size=100&id=43625&format=png&color=000000">
-<a href= "linkedin.com/in/rayssa-silva-3aa920320"><img align="center" alt="Rayssa.in" height="50cm" src="https://img.icons8.com/?size=100&id=44019&format=png&color=000000">
-
-<br>
-<img src="https://raw.githubusercontent.com/RayssaZsilva/RayssaZsilva/output/snake.svg" alt="Snake animation" />
-
-          
 </div>

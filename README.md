@@ -22,8 +22,8 @@
   <img src="https://img.shields.io/badge/React%20Native-1a1a2e?style=for-the-badge&logo=react&logoColor=FF69B4" />
 
 </p>
-<img align="right" alt="Rayssa-gif"  height="300cm" width="300" src="https://media.tenor.com/_ZBoQbD6dMEAAAAM/pink-old-school.gif">
+<img align="right" alt="Rayssa-gif"  height="300cm" width="400" src="https://media.tenor.com/_ZBoQbD6dMEAAAAM/pink-old-school.gif">
 <img align="center" alt="Rayssa-gif"  height="300cm" width="300" src="https://art.pixilart.com/020b2fa398d3406.gif">
-<img align="right" alt="Rayssa-gif"  height="300cm" width="300" src="https://i.pinimg.com/originals/c4/cf/5e/c4cf5e0bf4e68ec4df02bd80e03930fe.gif">
+<img align="center" alt="Rayssa-gif"  height="300cm" width="300" src="https://i.pinimg.com/originals/c4/cf/5e/c4cf5e0bf4e68ec4df02bd80e03930fe.gif">
 
 </div>

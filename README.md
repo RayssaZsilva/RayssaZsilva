@@ -27,3 +27,5 @@
 <img align="center" alt="Rayssa-gif"  height="300cm" width="300" src="https://i.pinimg.com/originals/c4/cf/5e/c4cf5e0bf4e68ec4df02bd80e03930fe.gif">
 
 </div>
+<img src="https://raw.githubusercontent.com/RayssaZsilva/RayssaZsilva/output/snake.svg" alt="Snake animation" />
+

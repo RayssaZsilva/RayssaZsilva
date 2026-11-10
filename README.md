@@ -67,10 +67,6 @@ Exploro front-end, back-end, integração de APIs e automação. As ferramentas 
   <img src="assets/project-medbox.svg" width="400" alt="MedBox 1.0 — lembretes com horários configuráveis, ESP32, MicroPython, display LCD, buzzer e LEDs. Projeto desenvolvido por mim; repositório público ainda não confirmado." />
 </p>
 
-<p><sub>SmartSeller e MedBox: descrições fornecidas por mim. Links serão adicionados quando os repositórios públicos forem confirmados.</sub></p>
-
-<h3>My Contribution Journey 🐍</h3>
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/RayssaZsilva/RayssaZsilva/output/snake.svg" width="900" alt="Animação da cobrinha percorrendo o gráfico real de contribuições de RayssaZsilva" />
   <br />

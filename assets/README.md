@@ -10,7 +10,7 @@ As artes principais têm fundo transparente. O retrato faz parte do cabeçalho, 
 - `project-*.svg`: dois cards principais e duas faixas compactas para projetos adicionais.
 - `link-*.svg`: botões transparentes de GitHub, portfólio e LinkedIn.
 
-Os cards, botões e ícones adaptam as cores com `prefers-color-scheme`. Os dois cabeçalhos usam uma paleta fixa independente dessa preferência: nome em roxo e textos menores sobre apoios escuros localizados. Assim, continuam legíveis quando o tema selecionado no GitHub difere da preferência do visualizador SVG, sem adicionar fundo ao banner inteiro. As artes não dependem de fontes personalizadas ou imagens remotas. A biografia permanece em texto HTML; ferramentas complementares, descrições e links dos projetos também ficam disponíveis em blocos `<details>`, além dos textos alternativos nas imagens.
+Os cards, botões e ícones adaptam as cores com `prefers-color-scheme`. Os dois cabeçalhos usam uma paleta fixa independente dessa preferência: nome em roxo e textos de apoio em lilás, com contorno escuro fino. Assim, continuam legíveis quando o tema selecionado no GitHub difere da preferência do visualizador SVG, sem adicionar caixas ou fundo ao banner. As artes não dependem de fontes personalizadas ou imagens remotas. A biografia permanece em texto HTML; ferramentas complementares, descrições e links dos projetos também ficam disponíveis em blocos `<details>`, além dos textos alternativos nas imagens.
 
 Para reconstruir todas as artes, a partir da raiz do repositório:
 
@@ -44,8 +44,10 @@ O HTML sanitizado do README foi obtido da página da branch no GitHub com TLS va
 
 A captura direta da página hospedada pelo navegador não foi possível: a confiança TLS do navegador falhou, e a revisão automática bloqueou o registro persistente de uma autoridade certificadora. Não foi desativada a validação TLS. As capturas desta revisão são locais, com o conteúdo servido pelo GitHub.
 
-### Contraste dos cabeçalhos
+### Cabeçalhos simplificados e contraste
 
-Os banners foram conferidos sobre branco `#FFFFFF` e escuro `#0D1117`, com as preferências de visualizador clara e escura, incluindo as combinações divergentes. Doze renderizações cobrem o desktop em 900 px e o mobile em 350 e 270 px. O nome tem contraste de 4,23:1 no branco e 4,47:1 no escuro, acima de 3:1 para seu tamanho grande. Os textos de apoio têm contraste de 12,73:1 ou 15,52:1 sobre os apoios `#281835`. Esses apoios ficam restritos aos textos; o restante da arte permanece transparente.
+Os banners contêm apenas o nome, “Software Development | AI | Automation” e “Building experiences with code & creativity.”, com fotografia circular e moldura neon. A versão desktop usa três linhas; a mobile divide somente o nome em duas linhas para preservar o espaço do retrato. As caixas individuais e as linhas de conexão foram removidas.
 
-A frase mobile é dividida em duas linhas para aumentar o tamanho sem cortes. Os limites dos textos e a ausência de sobreposição com o retrato/moldura foram medidos no Chromium. A fotografia original continua incorporada byte a byte, sem filtros. README, outros assets e workflow da cobrinha não foram alterados nesta correção.
+O fundo continua transparente. O nome usa roxo com um contorno claro muito fino; os textos de apoio usam lilás com contorno escuro de 0,8–0,85 unidade SVG. `paint-order: stroke fill` mantém o interior das letras nítido. Não há filtros ou sombras na fotografia, nem dependência da preferência de tema para escolher as cores dos banners.
+
+A revisão usa fundos reais branco `#FFFFFF` e escuro `#0D1117`, com as preferências clara e escura do visualizador, incluindo combinações divergentes. Doze renderizações cobrem o desktop a 900 px e o mobile a 350 e 270 px. Os limites dos textos e a ausência de sobreposição com a foto/moldura são medidos no Chromium. Os dois SVGs não contêm retângulos. A fotografia original, os cards, os botões, o toolkit e o workflow da cobrinha são preservados. O texto alternativo do cabeçalho no README acompanha a nova redação.

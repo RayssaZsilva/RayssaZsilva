@@ -26,11 +26,10 @@ DEFS = '''<defs>
 # prefers-color-scheme differ. Keep a fixed, measured palette for these two
 # assets instead of relying on the viewer to choose the correct text color.
 BANNER_STYLE = '''<style>
-text{font-family:Inter,"Segoe UI",Arial,Helvetica,sans-serif}
-.name{fill:#8B5CF6;font-weight:750}
-.label{fill:#F8F7FF;font-weight:600}
-.caption{fill:#E9DDFB;font-weight:600}
-.ink{fill:#281835}
+text{font-family:Inter,"Segoe UI",Arial,Helvetica,sans-serif;paint-order:stroke fill;stroke-linejoin:round}
+.name{fill:#8B5CF6;stroke:#F3EAFF;stroke-width:.7;font-weight:750}
+.label{fill:#A277D8;stroke:#301A42;stroke-width:.85;font-weight:650}
+.caption{fill:#A277D8;stroke:#301A42;stroke-width:.8;font-weight:600}
 </style>'''
 
 def write(name, w, h, title, body):
@@ -52,31 +51,22 @@ def photo(cx, cy, r):
 <circle cx="{cx+r*.75}" cy="{cy-r*.75}" r="5" fill="#ec4899"/>
 '''
 
-def banner_label(x, baseline, label, width, size=18, cls='label'):
-    # Small text receives a tight, opaque local backing. The canvas and
-    # space between labels stay transparent; no filter touches the portrait.
-    return (f'<rect x="{x-10}" y="{baseline-size-5}" width="{width}" '
-            f'height="{size+15}" rx="8" class="ink"/>'
-            + text(x, baseline, label, size, cls, 600))
+BANNER_TITLE = 'Rayssa Cardoso — Software Development | AI | Automation. Building experiences with code & creativity.'
 
-body = photo(743, 137, 108)
-body += '<path d="M30 29h32m-32 238h570m38-130h-35l-20 20h-25" fill="none" stroke="url(#neon)" stroke-opacity=".7"/>'
-body += banner_label(30, 60, 'DESENVOLVEDORA EM FORMAÇÃO', 258, 13, 'caption')
-body += text(27, 128, 'Rayssa Cardoso', 62, 'name', 750, 'letter-spacing="-1.8"')
-body += banner_label(30, 170, 'Software Development', 252, 21)
-body += banner_label(30, 207, 'Artificial Intelligence · Automation', 334, 19)
-body += banner_label(30, 247, 'Building experiences with code, AI & creativity.', 406, 17, 'caption')
-write('banner.svg', 900, 280, 'Rayssa Cardoso — Software Development | Artificial Intelligence | Automation. Building experiences with code, AI & creativity. Retrato original integrado à direita.', body)
-body = photo(305, 99, 70)
-body += '<path d="M20 20h28M20 327h360" fill="none" stroke="url(#neon)" stroke-opacity=".7"/>'
-body += banner_label(20, 49, 'CODE / AI / CREATIVITY', 162, 12, 'caption')
-body += text(18, 105, 'Rayssa', 44, 'name', 750, 'letter-spacing="-1"')
-body += text(18, 153, 'Cardoso', 44, 'name', 750, 'letter-spacing="-1"')
-body += banner_label(20, 202, 'Software Development', 252, 21)
-body += banner_label(20, 242, 'Artificial Intelligence · Automation', 334, 19)
-body += banner_label(20, 279, 'Building experiences with code,', 288, 17, 'caption')
-body += banner_label(20, 310, 'AI & creativity.', 140, 17, 'caption')
-write('banner-mobile.svg', 400, 332, 'Rayssa Cardoso — Software Development | Artificial Intelligence | Automation. Building experiences with code, AI & creativity. Retrato original integrado à direita.', body)
+# Three lines, a transparent canvas and a single quiet neon portrait frame.
+body = photo(753, 123, 100)
+body += text(24, 100, 'Rayssa Cardoso', 65, 'name', 750, 'letter-spacing="-1.8"')
+body += text(27, 145, 'Software Development | AI | Automation', 24, 'label', 650)
+body += text(27, 185, 'Building experiences with code & creativity.', 21, 'caption', 600)
+write('banner.svg', 900, 246, BANNER_TITLE, body)
+
+# Keep the name alongside the portrait, then use the full width below them.
+body = photo(305, 88, 66)
+body += text(18, 79, 'Rayssa', 44, 'name', 750, 'letter-spacing="-1"')
+body += text(18, 128, 'Cardoso', 44, 'name', 750, 'letter-spacing="-1"')
+body += text(18, 191, 'Software Development | AI | Automation', 19, 'label', 650)
+body += text(18, 228, 'Building experiences with code & creativity.', 18, 'caption', 600)
+write('banner-mobile.svg', 400, 255, BANNER_TITLE, body)
 
 # Project artwork: transparent canvas, a light wash and precise corner accents.
 ICONS = {

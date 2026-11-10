@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
     <source media="(max-width: 600px)" srcset="assets/banner-mobile.svg" />
-    <img src="assets/banner.svg" width="900" alt="Rayssa Cardoso — Software Development | Artificial Intelligence | Automation. Building experiences with code, AI &amp; creativity. Minha fotografia original integrada à composição." />
+    <img src="assets/banner.svg" width="900" alt="Rayssa Cardoso — Software Development | AI | Automation. Building experiences with code &amp; creativity. Minha fotografia original integrada à composição." />
   </picture>
   <br />
   <a href="https://github.com/RayssaZsilva"><img src="assets/link-github.svg" width="112" height="36" alt="GitHub de Rayssa" /></a>

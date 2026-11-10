@@ -10,7 +10,7 @@ As artes principais têm fundo transparente. O retrato faz parte do cabeçalho, 
 - `project-*.svg`: dois cards principais e duas faixas compactas para projetos adicionais.
 - `link-*.svg`: botões transparentes de GitHub, portfólio e LinkedIn.
 
-O texto, os ícones e as linhas dos SVGs adaptam as cores com `prefers-color-scheme`, preservando contraste em temas claro e escuro. As artes não dependem de fontes personalizadas ou imagens remotas. A biografia permanece em texto HTML; ferramentas complementares, descrições e links dos projetos também ficam disponíveis em blocos `<details>`, além dos textos alternativos nas imagens.
+Os cards, botões e ícones adaptam as cores com `prefers-color-scheme`. Os dois cabeçalhos usam uma paleta fixa independente dessa preferência: nome em roxo e textos menores sobre apoios escuros localizados. Assim, continuam legíveis quando o tema selecionado no GitHub difere da preferência do visualizador SVG, sem adicionar fundo ao banner inteiro. As artes não dependem de fontes personalizadas ou imagens remotas. A biografia permanece em texto HTML; ferramentas complementares, descrições e links dos projetos também ficam disponíveis em blocos `<details>`, além dos textos alternativos nas imagens.
 
 Para reconstruir todas as artes, a partir da raiz do repositório:
 
@@ -43,3 +43,9 @@ SmartSeller e MedBox mantêm descrições fornecidas pela autora, sem links para
 O HTML sanitizado do README foi obtido da página da branch no GitHub com TLS validado: `<picture>`, sua fonte mobile, os dois blocos expansíveis, links e a URL da cobrinha foram preservados. Os 15 SVGs publicados foram baixados e comparados byte a byte aos locais. A revisão em oito cenários foi repetida usando esse HTML e os assets publicados. O retrato incorporado também renderizou com a política CSP enviada pelo serviço raw do GitHub.
 
 A captura direta da página hospedada pelo navegador não foi possível: a confiança TLS do navegador falhou, e a revisão automática bloqueou o registro persistente de uma autoridade certificadora. Não foi desativada a validação TLS. As capturas desta revisão são locais, com o conteúdo servido pelo GitHub.
+
+### Contraste dos cabeçalhos
+
+Os banners foram conferidos sobre branco `#FFFFFF` e escuro `#0D1117`, com as preferências de visualizador clara e escura, incluindo as combinações divergentes. Doze renderizações cobrem o desktop em 900 px e o mobile em 350 e 270 px. O nome tem contraste de 4,23:1 no branco e 4,47:1 no escuro, acima de 3:1 para seu tamanho grande. Os textos de apoio têm contraste de 12,73:1 ou 15,52:1 sobre os apoios `#281835`. Esses apoios ficam restritos aos textos; o restante da arte permanece transparente.
+
+A frase mobile é dividida em duas linhas para aumentar o tamanho sem cortes. Os limites dos textos e a ausência de sobreposição com o retrato/moldura foram medidos no Chromium. A fotografia original continua incorporada byte a byte, sem filtros. README, outros assets e workflow da cobrinha não foram alterados nesta correção.

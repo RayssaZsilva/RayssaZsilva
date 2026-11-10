@@ -22,8 +22,20 @@ DEFS = '''<defs>
 <radialGradient id="halo"><stop stop-color="#a855f7" stop-opacity=".18"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
 </defs>'''
 
+# Banners must also work when GitHub's selected theme and the SVG viewer's
+# prefers-color-scheme differ. Keep a fixed, measured palette for these two
+# assets instead of relying on the viewer to choose the correct text color.
+BANNER_STYLE = '''<style>
+text{font-family:Inter,"Segoe UI",Arial,Helvetica,sans-serif}
+.name{fill:#8B5CF6;font-weight:750}
+.label{fill:#F8F7FF;font-weight:600}
+.caption{fill:#E9DDFB;font-weight:600}
+.ink{fill:#281835}
+</style>'''
+
 def write(name, w, h, title, body):
-    (ASSETS / name).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title"><title id="title">{escape(title)}</title>{STYLE}{DEFS}{body}</svg>\n')
+    style = BANNER_STYLE if name in ('banner.svg', 'banner-mobile.svg') else STYLE
+    (ASSETS / name).write_text(f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title"><title id="title">{escape(title)}</title>{style}{DEFS}{body}</svg>\n')
 
 def text(x, y, content, size=16, cls='text', weight=400, extra=''):
     return f'<text x="{x}" y="{y}" font-size="{size}" font-weight="{weight}" class="{cls}" {extra}>{escape(content)}</text>'
@@ -40,23 +52,31 @@ def photo(cx, cy, r):
 <circle cx="{cx+r*.75}" cy="{cy-r*.75}" r="5" fill="#ec4899"/>
 '''
 
-body = photo(733, 134, 108)
-body += '<path d="M30 45h32m-32 215h570m28-126h-35l-20 20h-30" fill="none" stroke="url(#neon)" stroke-opacity=".65"/>'
-body += text(30, 69, 'DESENVOLVEDORA EM FORMAÇÃO', 12, 'accent', 700, 'letter-spacing="2"')
-body += text(27, 132, 'Rayssa Cardoso', 61, 'text', 700, 'letter-spacing="-2"')
-body += text(30, 174, 'Software Development', 21, 'accent', 600)
-body += text(30, 201, 'Artificial Intelligence · Automation', 19, 'muted')
-body += text(30, 238, 'Building experiences with code, AI & creativity.', 16, 'muted')
+def banner_label(x, baseline, label, width, size=18, cls='label'):
+    # Small text receives a tight, opaque local backing. The canvas and
+    # space between labels stay transparent; no filter touches the portrait.
+    return (f'<rect x="{x-10}" y="{baseline-size-5}" width="{width}" '
+            f'height="{size+15}" rx="8" class="ink"/>'
+            + text(x, baseline, label, size, cls, 600))
+
+body = photo(743, 137, 108)
+body += '<path d="M30 29h32m-32 238h570m38-130h-35l-20 20h-25" fill="none" stroke="url(#neon)" stroke-opacity=".7"/>'
+body += banner_label(30, 60, 'DESENVOLVEDORA EM FORMAÇÃO', 258, 13, 'caption')
+body += text(27, 128, 'Rayssa Cardoso', 62, 'name', 750, 'letter-spacing="-1.8"')
+body += banner_label(30, 170, 'Software Development', 252, 21)
+body += banner_label(30, 207, 'Artificial Intelligence · Automation', 334, 19)
+body += banner_label(30, 247, 'Building experiences with code, AI & creativity.', 406, 17, 'caption')
 write('banner.svg', 900, 280, 'Rayssa Cardoso — Software Development | Artificial Intelligence | Automation. Building experiences with code, AI & creativity. Retrato original integrado à direita.', body)
-body = photo(302, 101, 72)
-body += '<path d="M20 31h28M20 270h360" fill="none" stroke="url(#neon)" stroke-opacity=".6"/>'
-body += text(20, 58, 'CODE / AI / CREATIVITY', 10, 'accent', 700, 'letter-spacing="1"')
-body += text(18, 108, 'Rayssa', 43, 'text', 700, 'letter-spacing="-1.5"')
-body += text(18, 153, 'Cardoso', 43, 'text', 700, 'letter-spacing="-1.5"')
-body += text(20, 202, 'Software Development', 21, 'accent', 600)
-body += text(20, 230, 'Artificial Intelligence · Automation', 17, 'muted')
-body += text(20, 257, 'Building experiences with code, AI & creativity.', 13, 'muted')
-write('banner-mobile.svg', 400, 280, 'Rayssa Cardoso — Software Development | Artificial Intelligence | Automation. Building experiences with code, AI & creativity. Retrato original integrado à direita.', body)
+body = photo(305, 99, 70)
+body += '<path d="M20 20h28M20 327h360" fill="none" stroke="url(#neon)" stroke-opacity=".7"/>'
+body += banner_label(20, 49, 'CODE / AI / CREATIVITY', 162, 12, 'caption')
+body += text(18, 105, 'Rayssa', 44, 'name', 750, 'letter-spacing="-1"')
+body += text(18, 153, 'Cardoso', 44, 'name', 750, 'letter-spacing="-1"')
+body += banner_label(20, 202, 'Software Development', 252, 21)
+body += banner_label(20, 242, 'Artificial Intelligence · Automation', 334, 19)
+body += banner_label(20, 279, 'Building experiences with code,', 288, 17, 'caption')
+body += banner_label(20, 310, 'AI & creativity.', 140, 17, 'caption')
+write('banner-mobile.svg', 400, 332, 'Rayssa Cardoso — Software Development | Artificial Intelligence | Automation. Building experiences with code, AI & creativity. Retrato original integrado à direita.', body)
 
 # Project artwork: transparent canvas, a light wash and precise corner accents.
 ICONS = {

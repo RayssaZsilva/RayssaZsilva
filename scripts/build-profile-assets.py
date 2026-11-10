@@ -26,10 +26,10 @@ DEFS = '''<defs>
 # prefers-color-scheme differ. Keep a fixed, measured palette for these two
 # assets instead of relying on the viewer to choose the correct text color.
 BANNER_STYLE = '''<style>
-text{font-family:Inter,"Segoe UI",Arial,Helvetica,sans-serif;paint-order:stroke fill;stroke-linejoin:round}
-.name{fill:#8B5CF6;stroke:#F3EAFF;stroke-width:.7;font-weight:750}
-.label{fill:#A277D8;stroke:#301A42;stroke-width:.85;font-weight:650}
-.caption{fill:#A277D8;stroke:#301A42;stroke-width:.8;font-weight:600}
+text{font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;paint-order:stroke fill;stroke-linejoin:round}
+.name{fill:#9365CC;stroke:none;font-weight:600}
+.label{fill:#9676B4;stroke:#301A42;stroke-width:.4;font-weight:500}
+.caption{fill:#9676B4;stroke:#301A42;stroke-width:.35;font-weight:400}
 </style>'''
 
 def write(name, w, h, title, body):
@@ -55,17 +55,17 @@ BANNER_TITLE = 'Rayssa Cardoso — Software Development | AI | Automation. Build
 
 # Three lines, a transparent canvas and a single quiet neon portrait frame.
 body = photo(753, 123, 100)
-body += text(24, 100, 'Rayssa Cardoso', 65, 'name', 750, 'letter-spacing="-1.8"')
-body += text(27, 145, 'Software Development | AI | Automation', 24, 'label', 650)
-body += text(27, 185, 'Building experiences with code & creativity.', 21, 'caption', 600)
+body += text(24, 100, 'Rayssa Cardoso', 60, 'name', 600, 'letter-spacing="-2"')
+body += text(27, 145, 'Software Development | AI | Automation', 21, 'label', 500)
+body += text(27, 185, 'Building experiences with code & creativity.', 19, 'caption', 400)
 write('banner.svg', 900, 246, BANNER_TITLE, body)
 
 # Keep the name alongside the portrait, then use the full width below them.
 body = photo(305, 88, 66)
-body += text(18, 79, 'Rayssa', 44, 'name', 750, 'letter-spacing="-1"')
-body += text(18, 128, 'Cardoso', 44, 'name', 750, 'letter-spacing="-1"')
-body += text(18, 191, 'Software Development | AI | Automation', 19, 'label', 650)
-body += text(18, 228, 'Building experiences with code & creativity.', 18, 'caption', 600)
+body += text(18, 79, 'Rayssa', 41, 'name', 600, 'letter-spacing="-1"')
+body += text(18, 128, 'Cardoso', 41, 'name', 600, 'letter-spacing="-1"')
+body += text(18, 191, 'Software Development | AI | Automation', 18, 'label', 500)
+body += text(18, 228, 'Building experiences with code & creativity.', 17, 'caption', 400)
 write('banner-mobile.svg', 400, 255, BANNER_TITLE, body)
 
 # Project artwork: transparent canvas, a light wash and precise corner accents.

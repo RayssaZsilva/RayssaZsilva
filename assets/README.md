@@ -10,7 +10,7 @@ As artes principais têm fundo transparente. O retrato faz parte do cabeçalho, 
 - `project-*.svg`: dois cards principais e duas faixas compactas para projetos adicionais.
 - `link-*.svg`: botões transparentes de GitHub, portfólio e LinkedIn.
 
-Os cards, botões e ícones adaptam as cores com `prefers-color-scheme`. Os dois cabeçalhos usam uma paleta fixa independente dessa preferência: nome em roxo e textos de apoio em lilás, com contorno escuro fino. Assim, continuam legíveis quando o tema selecionado no GitHub difere da preferência do visualizador SVG, sem adicionar caixas ou fundo ao banner. As artes não dependem de fontes personalizadas ou imagens remotas. A biografia permanece em texto HTML; ferramentas complementares, descrições e links dos projetos também ficam disponíveis em blocos `<details>`, além dos textos alternativos nas imagens.
+Os cards, botões e ícones adaptam as cores com `prefers-color-scheme`. Os dois cabeçalhos usam uma paleta fixa independente dessa preferência: nome em roxo e textos de apoio em malva, com acabamento fino. Assim, continuam legíveis quando o tema selecionado no GitHub difere da preferência do visualizador SVG, sem adicionar caixas ou fundo ao banner. As artes não dependem de fontes personalizadas ou imagens remotas. A biografia permanece em texto HTML; ferramentas complementares, descrições e links dos projetos também ficam disponíveis em blocos `<details>`, além dos textos alternativos nas imagens.
 
 Para reconstruir todas as artes, a partir da raiz do repositório:
 
@@ -48,6 +48,6 @@ A captura direta da página hospedada pelo navegador não foi possível: a confi
 
 Os banners contêm apenas o nome, “Software Development | AI | Automation” e “Building experiences with code & creativity.”, com fotografia circular e moldura neon. A versão desktop usa três linhas; a mobile divide somente o nome em duas linhas para preservar o espaço do retrato. As caixas individuais e as linhas de conexão foram removidas.
 
-O fundo continua transparente. O nome usa roxo com um contorno claro muito fino; os textos de apoio usam lilás com contorno escuro de 0,8–0,85 unidade SVG. `paint-order: stroke fill` mantém o interior das letras nítido. Não há filtros ou sombras na fotografia, nem dependência da preferência de tema para escolher as cores dos banners.
+O fundo continua transparente. O nome usa roxo sem contorno e peso 600; os textos de apoio usam malva em pesos 500 e 400, com acabamento de 0,35–0,4 unidade SVG. A família tipográfica prioriza a fonte de interface do sistema. `paint-order: stroke fill` mantém o interior das letras nítido, sem o aspecto de letras vazadas. Não há filtros ou sombras na fotografia, nem dependência da preferência de tema para escolher as cores dos banners.
 
 A revisão usa fundos reais branco `#FFFFFF` e escuro `#0D1117`, com as preferências clara e escura do visualizador, incluindo combinações divergentes. Doze renderizações cobrem o desktop a 900 px e o mobile a 350 e 270 px. Os limites dos textos e a ausência de sobreposição com a foto/moldura são medidos no Chromium. Os dois SVGs não contêm retângulos. A fotografia original, os cards, os botões, o toolkit e o workflow da cobrinha são preservados. O texto alternativo do cabeçalho no README acompanha a nova redação.

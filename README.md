@@ -1,63 +1,78 @@
 <p align="center">
-  <img src="assets/banner.svg" width="900" alt="Rayssa Cardoso — código, inteligência artificial e criatividade" />
+  <picture>
+    <source media="(max-width: 600px)" srcset="assets/banner-mobile.svg" />
+    <img src="assets/banner.svg" width="900" alt="Rayssa Cardoso — Software Development | AI | Automation. Building experiences with code &amp; creativity. Minha fotografia original integrada à composição." />
+  </picture>
+  <br />
+  <a href="https://github.com/RayssaZsilva"><img src="assets/link-github.svg" width="112" height="36" alt="GitHub de Rayssa" /></a>
+  <a href="https://portfolio-rayssa.vercel.app"><img src="assets/link-portfolio.svg" width="112" height="36" alt="Visitar portfólio" /></a>
+  <a href="https://www.linkedin.com/in/rayssa-silva-034665208"><img src="assets/link-linkedin.svg" width="112" height="36" alt="LinkedIn de Rayssa" /></a>
 </p>
-
-<img align="right" src="assets/profile.jpg" width="160" alt="Retrato de Rayssa Cardoso, com cabelo curto, blusa preta e fundo roxo" />
 
 <p align="center">
-  <strong>Software Development | Artificial Intelligence | Automation</strong><br />
-  <em>Building experiences with code, AI &amp; creativity.</em>
+  <strong>Graduanda em Ciência da Computação · UNG</strong><br />
+  Experiência em suporte técnico e desenvolvimento de projetos.<br />
+  <sub>Interfaces web &amp; APIs · Inteligência artificial &amp; automação · Git, branches &amp; Pull Requests</sub>
 </p>
+
+<h3 align="center">Meu toolkit, na prática</h3>
 
 <p align="center">
-  <a href="https://github.com/RayssaZsilva"><img src="assets/link-github.svg" width="112" height="36" alt="GitHub" /></a>
-  <a href="https://portfolio-rayssa.vercel.app"><img src="assets/link-portfolio.svg" width="112" height="36" alt="Portfólio" /></a>
-  <a href="https://www.linkedin.com/in/rayssa-silva-034665208"><img src="assets/link-linkedin.svg" width="112" height="36" alt="LinkedIn" /></a>
+  <img src="assets/tech-react.svg" width="124" height="72" alt="React" />
+  <img src="assets/tech-python.svg" width="124" height="72" alt="Python" />
+  <img src="assets/tech-fastapi.svg" width="124" height="72" alt="FastAPI" />
+  <img src="assets/tech-typescript.svg" width="124" height="72" alt="TypeScript" />
+  <img src="assets/tech-gemini.svg" width="124" height="72" alt="Google Gemini" />
+  <img src="assets/tech-github.svg" width="124" height="72" alt="GitHub" />
 </p>
 
-<br clear="right" />
+<details>
+  <summary><strong>Além do toolkit</strong> · ferramentas, estudos e forma de trabalhar</summary>
 
-## Olá, eu sou a Rayssa
+**Formação:** Ciência da Computação na Universidade Guarulhos (UNG), em andamento.
 
+Minha prática atual reúne React, JavaScript, Python, FastAPI e Gemini no Chat rAI, e React com TypeScript no Achô. Uso Git e GitHub com branches, commits e Pull Requests para organizar o desenvolvimento.
 
-Sou graduanda em **Ciência da Computação na Universidade Guarulhos (UNG)**, com experiência em suporte técnico e desenvolvimento de projetos.
+Exploro front-end, back-end, integração de APIs e automação. As ferramentas abaixo fazem parte de projetos e estudos em diferentes estágios de aprendizado, sem representar o mesmo nível de domínio:
 
-Exploro a conexão entre **desenvolvimento web, inteligência artificial e automação**. Nos meus projetos, trabalho com interfaces, back-end e integração de APIs para transformar ideias em experiências digitais.
+- **Linguagens:** Python, JavaScript, TypeScript, SQL, HTML5 e CSS3.
+- **Front-end:** React, Vite e Tailwind CSS.
+- **Back-end e APIs:** FastAPI, Django e Node.js.
+- **IA e automação:** Google Gemini, APIs de IA, n8n e ferramentas de automação.
+- **Desenvolvimento:** Git, GitHub, VS Code e Vercel.
+- **Outras explorações:** Power BI, Blender, Three.js, ESP32 e MicroPython.
 
-Uso Git e GitHub para organizar o desenvolvimento com branches, commits e Pull Requests. Sigo aprendendo, experimentando e construindo — um projeto de cada vez.
+</details>
 
-## Tecnologias & ferramentas
-
-Minha prática atual se concentra em **React, JavaScript, Python, FastAPI e integração com Gemini**, presentes no Chat rAI, e em **React e TypeScript**, no Achô. Também exploro outras ferramentas em projetos e estudos, ampliando minha base técnica aos poucos.
-
-- **◇ Linguagens** · Python, JavaScript, TypeScript, SQL, HTML5 e CSS3.
-- **◇ Front-end** · React, Vite e Tailwind CSS.
-- **◇ Back-end e APIs** · FastAPI, Django e Node.js.
-- **◇ IA e automação** · Google Gemini, APIs de IA, n8n e ferramentas de automação.
-- **◇ Desenvolvimento** · Git, GitHub, VS Code e Vercel.
-- **◇ Outras explorações** · Power BI, Blender, Three.js, ESP32 e MicroPython.
-
-## Projetos em destaque
+<h3>Projetos que conectam ideias</h3>
 
 <p align="center">
-  <a href="https://github.com/RayssaZsilva/Portfolio-rayssa"><img src="assets/project-chat-rai.svg" width="400" alt="Chat rAI — assistente integrado ao portfólio com IA generativa, histórico contextual e consulta de projetos do GitHub. React, JavaScript, Python, FastAPI e Gemini API. Abrir repositório." /></a>
-  <a href="https://github.com/RayssaZsilva/Acho"><img src="assets/project-acho.svg" width="400" alt="Achô — aplicação de hospedagens com pesquisa, detalhes, favoritos e telas de login e cadastro; dados locais. React, TypeScript e Vite. Abrir repositório." /></a>
-  <img src="assets/project-smartseller.svg" width="400" alt="SmartSeller — projeto de automação e integração com Mercado Livre, com fluxo de autenticação e gerenciamento de operações. Repositório público não confirmado; descrição fornecida pela autora." />
-  <img src="assets/project-medbox.svg" width="400" alt="MedBox 1.0 — lembretes com ESP32 e MicroPython, display LCD, buzzer, LEDs e configuração de horários. Repositório público não confirmado; descrição fornecida pela autora." />
+  <a href="https://github.com/RayssaZsilva/Portfolio-rayssa"><img src="assets/project-chat-rai.svg" width="400" alt="Chat rAI — assistente integrado ao portfólio com IA generativa, histórico contextual e consulta de projetos públicos do GitHub. React, JavaScript, Python, FastAPI e Gemini API. Abrir repositório." /></a>
+  <a href="https://github.com/RayssaZsilva/Acho"><img src="assets/project-acho.svg" width="400" alt="Achô — pesquisa e detalhes de hospedagens, favoritos e telas de login e cadastro, com dados locais. React, TypeScript, Vite, React Router e LocalStorage. Abrir repositório." /></a>
 </p>
 
-**Explore o código:** [Chat rAI / Portfólio](https://github.com/RayssaZsilva/Portfolio-rayssa) · [Achô](https://github.com/RayssaZsilva/Acho).
+<details>
+  <summary>Explorar os projetos · links e detalhes técnicos</summary>
 
-<sub>SmartSeller e MedBox 1.0: projetos desenvolvidos por mim, com descrições fornecidas por mim. Repositórios públicos ainda não confirmados.</sub>
+**[Chat rAI / Portfólio](https://github.com/RayssaZsilva/Portfolio-rayssa):** integração entre front-end React/JavaScript, back-end Python/FastAPI e Gemini API. Conversação com IA generativa, histórico contextual e consulta de projetos públicos do GitHub.
 
-## Atividade no GitHub
+**[Achô](https://github.com/RayssaZsilva/Acho):** aplicação de hospedagens com React, TypeScript e Vite. Pesquisa, detalhes, favoritos e telas de login e cadastro, com dados locais e persistência via LocalStorage.
 
-Meu [gráfico de contribuições](https://github.com/RayssaZsilva#year-list-container) e meus [repositórios públicos](https://github.com/RayssaZsilva?tab=repositories) mostram minha atividade e as linguagens de cada projeto, diretamente no GitHub.
+</details>
 
-### My Contribution Journey 🐍
+<h4>Outros projetos &amp; explorações</h4>
+
+<p align="center">
+  <img src="assets/project-smartseller.svg" width="400" alt="SmartSeller — automação e integração de operações com Mercado Livre, incluindo fluxo de autenticação e gerenciamento. Projeto desenvolvido por mim; repositório público ainda não confirmado." />
+  <img src="assets/project-medbox.svg" width="400" alt="MedBox 1.0 — lembretes com horários configuráveis, ESP32, MicroPython, display LCD, buzzer e LEDs. Projeto desenvolvido por mim; repositório público ainda não confirmado." />
+</p>
+
+<p><sub>SmartSeller e MedBox: descrições fornecidas por mim. Links serão adicionados quando os repositórios públicos forem confirmados.</sub></p>
+
+<h3>My Contribution Journey 🐍</h3>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/RayssaZsilva/RayssaZsilva/output/snake.svg" width="900" alt="Animação da cobrinha percorrendo o gráfico real de contribuições de RayssaZsilva" />
+  <br />
+  <sub><a href="https://github.com/RayssaZsilva#year-list-container">Contribuições</a> · <a href="https://github.com/RayssaZsilva?tab=repositories">Repositórios &amp; linguagens</a> · Aprender. Construir. Compartilhar.</sub>
 </p>
-
-<p align="center"><sub>Aprender. Construir. Compartilhar.</sub></p>

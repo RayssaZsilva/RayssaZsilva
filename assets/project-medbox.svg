@@ -1,7 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="400" height="260" viewBox="0 0 400 260" role="img" aria-labelledby="title"><title id="title">MedBox 1.0</title><defs><linearGradient id="accent"><stop stop-color="#8B5CF6"/><stop offset="1" stop-color="#EC4899"/></linearGradient></defs>
- <rect x="1" y="1" width="398" height="258" rx="16" fill="#0D0B16" stroke="#443055"/>
- <path d="M20 1h360" stroke="url(#accent)" stroke-width="2"/>
- <text x="22" y="31" fill="#C4B5FD" font-family="Arial, Helvetica, sans-serif" font-size="10" font-weight="700" letter-spacing="1.3">SISTEMAS EMBARCADOS</text>
- <text x="375" y="34" fill="#C4B5FD" font-family="monospace" font-size="14" text-anchor="end">04</text>
- <text x="22" y="69" fill="#F8F7FF" font-family="Arial, Helvetica, sans-serif" font-size="29" font-weight="700">MedBox 1.0</text><text x="22" y="100" fill="#D8D1E5" font-family="Arial, Helvetica, sans-serif" font-size="15">Lembretes com display LCD, buzzer e LEDs,</text><text x="22" y="121" fill="#D8D1E5" font-family="Arial, Helvetica, sans-serif" font-size="15">incluindo configuração de horários.</text><text x="22" y="142" fill="#D8D1E5" font-family="Arial, Helvetica, sans-serif" font-size="15">Integração de hardware e software.</text><text x="22" y="176" fill="#C4B5FD" font-family="Arial, Helvetica, sans-serif" font-size="13">ESP32 · MicroPython</text><text x="22" y="195" fill="#C4B5FD" font-family="Arial, Helvetica, sans-serif" font-size="13">LCD · Buzzer · LEDs</text><path d="M22 211h356" stroke="#33243E"/>
- <text x="22" y="237" fill="#BDB2CC" font-family="Arial, Helvetica, sans-serif" font-size="12">Repositório público não confirmado</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="124" viewBox="0 0 400 124" role="img" aria-labelledby="title"><title id="title">MedBox 1.0. Lembretes com horários configuráveis. ESP32 · MicroPython · LCD · Buzzer · LEDs. Repositório público não confirmado.</title><style>
+.text{fill:#28183d}.muted{fill:#59456f}.accent{fill:#7138c5}
+.line{stroke:#9364c4}.surface{fill:#8b5cf6;fill-opacity:.035}
+@media(prefers-color-scheme:dark){
+.text{fill:#f8f7ff}.muted{fill:#c0b3d3}.accent{fill:#c4b5fd}
+.line{stroke:#72518f}.surface{fill:#c4b5fd;fill-opacity:.035}}
+text{font-family:Arial,Helvetica,sans-serif}
+</style><defs>
+<linearGradient id="neon"><stop stop-color="#8B5CF6"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+<radialGradient id="halo"><stop stop-color="#a855f7" stop-opacity=".18"/><stop offset="1" stop-color="#a855f7" stop-opacity="0"/></radialGradient>
+</defs><path d="M1 12v100M15 119h370" class="line" stroke-opacity=".5" fill="none"/><g transform="translate(7 10) scale(0.75)" fill="none" stroke="url(#neon)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="15" y="12" width="35" height="43" rx="6"/><path d="M26 33h13m-6-6v13M24 19h17M28 49h10"/></g><text x="66" y="32" font-size="24" font-weight="700" class="text" >MedBox 1.0</text><text x="66" y="55" font-size="13" font-weight="400" class="muted" >Lembretes com horários configuráveis.</text><text x="16" y="82" font-size="12" font-weight="600" class="accent" >ESP32 · MicroPython · LCD · Buzzer · LEDs</text><text x="16" y="104" font-size="11" font-weight="400" class="muted" >Repositório público ainda não confirmado</text></svg>

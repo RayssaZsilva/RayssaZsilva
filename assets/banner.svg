@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="240" viewBox="0 0 900 240" role="img" aria-labelledby="title desc">
+  <title id="title">Rayssa Cardoso</title>
+  <desc id="desc">Banner em fundo escuro com gradiente roxo, tipografia lilás e uma composição orbital discreta.</desc>
+  <defs>
+    <linearGradient id="background" x2="1" y2="1">
+      <stop stop-color="#0D0B16"/><stop offset="1" stop-color="#211332"/>
+    </linearGradient>
+    <linearGradient id="accent"><stop stop-color="#8B5CF6"/><stop offset="1" stop-color="#EC4899"/></linearGradient>
+    <radialGradient id="glow"><stop stop-color="#8B5CF6" stop-opacity=".18"/><stop offset="1" stop-color="#8B5CF6" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect x="1" y="1" width="898" height="238" rx="20" fill="url(#background)" stroke="#443055"/>
+  <circle cx="760" cy="120" r="150" fill="url(#glow)"/>
+  <g fill="none" stroke="#8B5CF6" stroke-opacity=".35">
+    <circle cx="777" cy="120" r="77"/><circle cx="777" cy="120" r="105"/>
+    <ellipse cx="777" cy="120" rx="125" ry="43" transform="rotate(-35 777 120)"/>
+  </g>
+  <circle cx="699" cy="51" r="5" fill="#EC4899"/>
+  <circle cx="858" cy="140" r="4" fill="#C4B5FD"/>
+  <path d="m758 104-16 16 16 16m38-32 16 16-16 16m-13-40-12 48" fill="none" stroke="#C4B5FD" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="42" y="54" width="46" height="4" rx="2" fill="url(#accent)"/>
+  <text x="42" y="133" fill="#F8F7FF" font-family="Arial, Helvetica, sans-serif" font-size="62" font-weight="700" letter-spacing="-2">Rayssa Cardoso</text>
+  <text x="45" y="177" fill="#C4B5FD" font-family="Arial, Helvetica, sans-serif" font-size="19" letter-spacing="2">CODE / AI / CREATIVITY</text>
+  <path d="M42 213h816" stroke="url(#accent)" stroke-opacity=".45"/>
+</svg>

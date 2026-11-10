@@ -10,7 +10,7 @@ As artes principais têm fundo transparente. O retrato faz parte do cabeçalho, 
 - `project-*.svg`: dois cards principais e duas faixas compactas para projetos adicionais.
 - `link-*.svg`: botões transparentes de GitHub, portfólio e LinkedIn.
 
-O texto, os ícones e as linhas dos SVGs adaptam as cores com `prefers-color-scheme`, preservando contraste em temas claro e escuro. As artes não dependem de fontes instaladas ou imagens remotas. A biografia permanece em texto HTML; ferramentas complementares, descrições e links dos projetos também ficam disponíveis em blocos `<details>`, além dos textos alternativos nas imagens.
+O texto, os ícones e as linhas dos SVGs adaptam as cores com `prefers-color-scheme`, preservando contraste em temas claro e escuro. As artes não dependem de fontes personalizadas ou imagens remotas. A biografia permanece em texto HTML; ferramentas complementares, descrições e links dos projetos também ficam disponíveis em blocos `<details>`, além dos textos alternativos nas imagens.
 
 Para reconstruir todas as artes, a partir da raiz do repositório:
 
@@ -37,3 +37,9 @@ Também permanecem os comportamentos anteriores: gatilho de push em `master`, em
 Validação local em Chromium nos temas claro e escuro, a 320, 375, 768 e 1440 px, com todos os assets carregados, sem overflow horizontal e com os blocos expansíveis fechados e abertos. O cabeçalho mobile é selecionado até 600 px. Os limites de todos os textos nos SVGs e a integridade da fotografia incorporada foram conferidos.
 
 SmartSeller e MedBox mantêm descrições fornecidas pela autora, sem links para repositórios não confirmados. Estatísticas externas continuam substituídas por links nativos do GitHub. A abertura automática de Pull Requests depende do acesso à API do GitHub; a política de rede deste ambiente bloqueia `api.github.com`.
+
+### Conferência da branch publicada
+
+O HTML sanitizado do README foi obtido da página da branch no GitHub com TLS validado: `<picture>`, sua fonte mobile, os dois blocos expansíveis, links e a URL da cobrinha foram preservados. Os 15 SVGs publicados foram baixados e comparados byte a byte aos locais. A revisão em oito cenários foi repetida usando esse HTML e os assets publicados. O retrato incorporado também renderizou com a política CSP enviada pelo serviço raw do GitHub.
+
+A captura direta da página hospedada pelo navegador não foi possível: a confiança TLS do navegador falhou, e a revisão automática bloqueou o registro persistente de uma autoridade certificadora. Não foi desativada a validação TLS. As capturas desta revisão são locais, com o conteúdo servido pelo GitHub.
